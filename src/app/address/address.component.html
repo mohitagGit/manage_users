@@ -1,0 +1,33 @@
+<div>
+    <div>
+        <h1>Delivery Addresses</h1>
+        <div>
+            <div *ngFor="let delAdd of crUserDelAddress">
+                <ul class="border">
+                    <li>{{delAdd.id}}</li>
+                    <li>{{delAdd.contact_name}}</li>
+                    <li>{{delAdd.city_name}}</li>
+                    <li>{{delAdd.countryname}}</li>
+                    <li>Default: {{delAdd.default_address}}</li>
+                    <li><button class="btn btn-success" (click)="updateAddressHandler(delAdd)">Edit</button></li>
+                    <li><button class="btn btn-danger" (click)="deleteAddressHandler(delAdd.id)">Delete</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h1>Billing Addresses</h1>
+        <div>
+            <div *ngFor="let bilAdd of crUserBilAddress">
+                <ul class="border">
+                    <li>{{bilAdd.id}}</li>
+                    <li>{{bilAdd.contact_name}}</li>
+                    <li>{{bilAdd.city_name}}</li>
+                    <li>{{bilAdd.countryname}}</li>
+                    <li>Default: {{bilAdd.default_address}}</li>
+                    <li><button class="btn btn-danger" (click)="deleteAddressHandler(bilAdd.id)">Delete</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

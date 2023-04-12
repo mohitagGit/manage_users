@@ -1,0 +1,14 @@
+<div>
+    <div class="text-center">
+        <div *ngIf="currentUserInfo.profilepic"><img src={{currentUserInfo.profilepic}}></div>
+        <div>Id: {{currentUserInfo.id}}</div>
+        <div>Name: {{currentUserInfo.profilename}}</div>
+        <div>Email: {{currentUserInfo.emailaddress}}</div>
+        <div>Phone: {{currentUserInfo.phoneno}}</div>
+        <div>Country: {{currentUserInfo.countryname}}</div>
+    </div>
+    <div class="d-grid gap-2">
+        <button class="btn btn-primary" type="button"><a routerLink="/address">Address</a></button>
+        <button class="btn btn-danger" type="button" (click)="onLogoutSession()">Logout</button>
+    </div>
+</div>
