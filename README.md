@@ -1,14 +1,16 @@
 # ManageUser
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4., it uses rest APIs to perform CRUD operation on user Addresses after Login. This application is using Bootstrap5 for CSS Framework.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Login functionality where user can login using email id and password.
+User can check the user information stored
+User can create, read, update and delete (CRUD) the Addresses.
 
 ## Build
 
