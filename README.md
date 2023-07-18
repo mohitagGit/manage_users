@@ -12,6 +12,12 @@ Login functionality where user can login using email id and password.
 User can check the user information stored
 User can create, read, update and delete (CRUD) the Addresses.
 
+
+## Screenshot from Application
+
+<img src="https://github.com/mohitagGit/manage_users/blob/main/src/img/manage-user-login.png" width="300">
+
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
