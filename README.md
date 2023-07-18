@@ -15,7 +15,7 @@ User can create, read, update and delete (CRUD) the Addresses.
 
 ## Screenshot from Application
 
-<img src="https://github.com/mohitagGit/manage_users/blob/main/src/img/manage-user-login.png" width="300">
+<img src="https://github.com/mohitagGit/manage_users/blob/master/src/img/manage-user-login.png" width="300">
 
 
 ## Build
